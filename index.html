@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>阿哥權力統計系統</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen" />
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/arger.js"></script>
+    <style>
+        body{
+            text-align: center;
+        }
+        #wrapper{
+            width: 960px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <h1>阿哥權力統計系統</h1>
+        <h5>說明文件 :
+            <a href="http://pansci.tw/archives/56141">戴上數學眼鏡看雍正王朝</a>
+        </h5>
+        <h5>(建議不要超過9個阿哥，很可怕。)</h5>
+        <div id="many-arger-div">
+            <div id="imarger_0" class="span2">
+                <div class="agname">
+                    <input type="text" class="span2" name="" id="agname_0" class='agpower' value="藍阿哥">
+                </div>
+                <div class="agpower-div">
+                    <input type="text" class="span2 agpower-input" name="" id="agpower_0" value="36">
+                </div>
+                <div class="agresult-div"></div>
+            </div>
+            <div id="imarger_1" class="span2">
+                <div class="agname">
+                    <input type="text" class="span2" name="" id="agname_1" class='agpower' value="綠阿哥">
+                </div>
+                <div class="agpower-div">
+                    <input type="text" class="span2 agpower-input" name="" id="agpower_1" value="16">
+                </div>
+                <div class="agresult-div"></div>
+            </div>
+            <div id="imarger_2" class="span2">
+                <div class="agname">
+                    <input type="text" class="span2" name="" id="agname_2" class='agpower' value="橘阿哥">
+                </div>
+                <div class="agpower-div">
+                    <input type="text" class="span2 agpower-input" name="" id="agpower_2" value="16">
+                </div>
+                <div class="agresult-div"></div>
+            </div>
+            <div id="imarger_3" class="span2">
+                <div class="agname">
+                    <input type="text" class="span2" name="" id="agname_3" class='agpower' value="台阿哥">
+                </div>
+                <div class="agpower-div">
+                    <input type="text" class="span2 agpower-input" name="" id="agpower_3" value="16">
+                </div>
+                <div class="agresult-div"></div>
+            </div>
+            <div id="imarger_4" class="span2">
+                <div class="agname">
+                    <input type="text" class="span2" name="" id="agname_4" class='agpower' value="連阿哥">
+                </div>
+                <div class="agpower-div">
+                    <input type="text" class="span2 agpower-input" name="" id="agpower_4" value="16">
+                </div>
+                <div class="agresult-div"></div>
+            </div>
+            <div id="imarger_5" class="span2">
+                <div class="agname">
+                    <input type="text" class="span2" name="" id="agname_5" value="吳阿哥">
+                </div>
+                <div class="agpower-div">
+                    <input type="text" class="span2 agpower-input" name="" id="agpower_5" value="0">
+                </div>
+                <div class="agresult-div"></div>
+            </div>
+        </div>
+        <div class="kill-arger" style="clear:both">
+            <input type="button" id="kill-arger-btn" value="砍最後一個">
+        </div>
+        <div class="add-arger">
+            <input type="button" id="add-arger-btn" value="加入新角色">
+        </div>
+        <div class="action">
+            <input type="button" id="output-btn" value="統計">
+        </div>
+        <div class="output">
+            <span class="output-ag-name"></span>
+            <span class="output-ag-value"></span>
+        </div>
+    </div>
+
+    <script>
+    </script>
+
+</body>
+
+</html>
